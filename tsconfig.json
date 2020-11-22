@@ -1,0 +1,25 @@
+{
+	"compilerOptions": {
+		"strict": true,
+		"noImplicitThis": true,
+		"alwaysStrict": true,
+		"strictFunctionTypes": true,
+		"strictPropertyInitialization": false,
+		"experimentalDecorators": true,
+		"emitDecoratorMetadata": true,
+		"forceConsistentCasingInFileNames": true,
+		"allowUmdGlobalAccess": false,
+		"target": "ES2015",
+		"isolatedModules": false,
+		"module": "ES2020",
+		"noImplicitAny":true,
+		"strictNullChecks": true,
+		"esModuleInterop": true,
+		"allowSyntheticDefaultImports": true,
+		"outDir": "./lib/esm",
+		"moduleResolution": "node",
+		"declaration": true
+	},
+	"exclude": ["./node_modules"],
+	"include": ["./src"]
+}
